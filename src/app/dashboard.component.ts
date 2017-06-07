@@ -6,7 +6,8 @@ import { HeroService } from './hero.service';
 @Component({
     selector: 'my-dashboard',
     //template: '<h3>Top Heroes</h3>'
-    templateUrl: './dashboard.component.html'
+    templateUrl: './dashboard.component.html',
+    styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
     heroes: Hero[] = [];
